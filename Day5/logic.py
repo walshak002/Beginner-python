@@ -16,12 +16,48 @@
 #print(code[::-1])
 #print(code [-6] + code[-2] + code[-4] + code[4] + code[-3])
 
-grid = [
-["The", "Sky", "is"],
-["full", "of", "stars"],
-["shining", "bright", "tonight"]
-]
+#grid = [
+#["The", "Sky", "is"],
+#["full", "of", "stars"],
+#["shining", "bright", "tonight"]
+#]
 
-print(grid[0][0], grid[0][1])
-print(grid[0][0], grid[1][2], "are", grid[2][0])
-print(grid[1][::-1])
+#print(grid[0][0], grid[0][1])
+#print(grid[0][0], grid[1][2], "are", grid[2][0])
+#print(grid[1][::-1])
+#friut.appen("mango")
+
+
+
+#Question1
+
+playlist = ["Song A", "Song B", "Song C"]
+playlist[1] = "Song D"
+print(playlist)
+
+playlist.append("Song E")
+playlist.insert(0, "Intro")
+print(playlist)
+
+print(playlist)
+
+
+#Question2
+
+desk = []
+
+student1 = input("Enter student name : ")
+student2 = input("Enter student name : ")
+student3 = input("Enter student name : ")
+
+desk = [student1, student2, student3]
+
+desk[1] = input("New student name: ")
+
+desk.insert(1, input("New student name: "))
+print(desk)
+
+
+
+
+
